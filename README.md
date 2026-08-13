@@ -2,6 +2,12 @@
 
 NHANES 2021–2023 공개자료로 학습한 연구용 기준모델을 연결한 로컬 Streamlit 프로그램임.
 
+## 소스코드 구성
+
+- `app.py`: Streamlit 실행 진입점
+- `src/model_logic.py`: 입력 검증, 위험확률 계산, eGFR·UACR 해석 및 다인 분석 핵심 로직
+- `test_model_logic.py`: 모델 로직 자동 테스트
+
 ## 실행 방법
 
 VS Code에서 이 프로젝트 폴더를 연 뒤, 아래 명령을 터미널에 입력함.
