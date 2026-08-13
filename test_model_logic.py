@@ -5,7 +5,7 @@ from io import BytesIO
 
 import pandas as pd
 
-from model_logic import (
+from src.model_logic import (
     InputValidationError,
     get_reference_profile,
     interpret_confirmation_tests,
