@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 
-from model_logic import (
+from src.model_logic import (
     InputValidationError,
     get_reference_profile,
     interpret_confirmation_tests,
