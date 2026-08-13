@@ -1,0 +1,605 @@
+{
+  "reference_name": "현재 신장검사상 이상 소견이 없는 NHANES 참고집단",
+  "source": "CDC NHANES 2021–2023 성인 공개자료",
+  "reference_definition": "eGFR 60 이상 및 UACR 30 mg/g 미만인 성인. 건강 확정 또는 진단 기준이 아님.",
+  "age_band_method": "입력 연령을 8개 연령대로 분류하여 동일 성별 참고집단과 비교함.",
+  "reference_total_n": 4603,
+  "profiles": {
+    "male": {
+      "18–24세": {
+        "group_n": 208,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 202,
+            "mean": 116.52,
+            "q25": 110.08,
+            "q75": 122.67
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 202,
+            "mean": 69.38,
+            "q25": 63.67,
+            "q75": 75.0
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 207,
+            "mean": 15.14,
+            "q25": 14.6,
+            "q75": 15.75
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 208,
+            "mean": 5.2,
+            "q25": 5.0,
+            "q75": 5.4
+          }
+        }
+      },
+      "25–34세": {
+        "group_n": 297,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 292,
+            "mean": 118.93,
+            "q25": 111.0,
+            "q75": 125.33
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 292,
+            "mean": 74.68,
+            "q25": 68.0,
+            "q75": 81.0
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 292,
+            "mean": 14.99,
+            "q25": 14.4,
+            "q75": 15.6
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 297,
+            "mean": 5.28,
+            "q25": 5.0,
+            "q75": 5.5
+          }
+        }
+      },
+      "35–44세": {
+        "group_n": 321,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 315,
+            "mean": 120.37,
+            "q25": 113.33,
+            "q75": 126.67
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 315,
+            "mean": 76.99,
+            "q25": 70.83,
+            "q75": 82.17
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 320,
+            "mean": 15.02,
+            "q25": 14.4,
+            "q75": 15.7
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 321,
+            "mean": 5.5,
+            "q25": 5.1,
+            "q75": 5.6
+          }
+        }
+      },
+      "45–54세": {
+        "group_n": 262,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 259,
+            "mean": 123.65,
+            "q25": 114.33,
+            "q75": 130.33
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 259,
+            "mean": 79.91,
+            "q25": 74.17,
+            "q75": 85.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 260,
+            "mean": 14.9,
+            "q25": 14.2,
+            "q75": 15.62
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 262,
+            "mean": 5.82,
+            "q25": 5.3,
+            "q75": 5.9
+          }
+        }
+      },
+      "55–64세": {
+        "group_n": 438,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 431,
+            "mean": 126.07,
+            "q25": 115.67,
+            "q75": 134.5
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 431,
+            "mean": 77.12,
+            "q25": 70.33,
+            "q75": 83.5
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 438,
+            "mean": 14.8,
+            "q25": 14.1,
+            "q75": 15.6
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 438,
+            "mean": 5.88,
+            "q25": 5.4,
+            "q75": 5.9
+          }
+        }
+      },
+      "65–74세": {
+        "group_n": 387,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 382,
+            "mean": 127.93,
+            "q25": 115.33,
+            "q75": 138.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 382,
+            "mean": 73.82,
+            "q25": 66.0,
+            "q75": 79.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 386,
+            "mean": 14.65,
+            "q25": 14.1,
+            "q75": 15.3
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 387,
+            "mean": 5.88,
+            "q25": 5.4,
+            "q75": 6.0
+          }
+        }
+      },
+      "75–84세": {
+        "group_n": 146,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 139,
+            "mean": 127.97,
+            "q25": 117.17,
+            "q75": 139.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 139,
+            "mean": 69.95,
+            "q25": 63.0,
+            "q75": 76.33
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 146,
+            "mean": 14.07,
+            "q25": 13.2,
+            "q75": 15.0
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 146,
+            "mean": 5.93,
+            "q25": 5.4,
+            "q75": 6.2
+          }
+        }
+      },
+      "85세 이상": {
+        "group_n": 0,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          }
+        }
+      }
+    },
+    "female": {
+      "18–24세": {
+        "group_n": 220,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 213,
+            "mean": 106.29,
+            "q25": 99.33,
+            "q75": 113.33
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 213,
+            "mean": 68.09,
+            "q25": 62.67,
+            "q75": 72.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 220,
+            "mean": 12.85,
+            "q25": 12.3,
+            "q75": 13.62
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 220,
+            "mean": 5.17,
+            "q25": 5.0,
+            "q75": 5.33
+          }
+        }
+      },
+      "25–34세": {
+        "group_n": 392,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 373,
+            "mean": 108.28,
+            "q25": 102.0,
+            "q75": 113.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 373,
+            "mean": 71.59,
+            "q25": 65.33,
+            "q75": 76.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 392,
+            "mean": 13.07,
+            "q25": 12.47,
+            "q75": 13.9
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 392,
+            "mean": 5.27,
+            "q25": 5.0,
+            "q75": 5.4
+          }
+        }
+      },
+      "35–44세": {
+        "group_n": 411,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 392,
+            "mean": 111.24,
+            "q25": 103.0,
+            "q75": 117.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 392,
+            "mean": 73.88,
+            "q25": 67.58,
+            "q75": 79.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 409,
+            "mean": 13.04,
+            "q25": 12.4,
+            "q75": 13.9
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 411,
+            "mean": 5.4,
+            "q25": 5.1,
+            "q75": 5.6
+          }
+        }
+      },
+      "45–54세": {
+        "group_n": 348,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 334,
+            "mean": 117.57,
+            "q25": 107.42,
+            "q75": 126.17
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 334,
+            "mean": 76.94,
+            "q25": 69.33,
+            "q75": 83.0
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 348,
+            "mean": 13.24,
+            "q25": 12.5,
+            "q75": 14.1
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 348,
+            "mean": 5.67,
+            "q25": 5.2,
+            "q75": 5.8
+          }
+        }
+      },
+      "55–64세": {
+        "group_n": 532,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 527,
+            "mean": 122.58,
+            "q25": 112.33,
+            "q75": 131.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 527,
+            "mean": 75.88,
+            "q25": 69.67,
+            "q75": 82.67
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 530,
+            "mean": 13.47,
+            "q25": 12.9,
+            "q75": 14.2
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 532,
+            "mean": 5.91,
+            "q25": 5.4,
+            "q75": 6.0
+          }
+        }
+      },
+      "65–74세": {
+        "group_n": 472,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 466,
+            "mean": 126.67,
+            "q25": 113.67,
+            "q75": 137.0
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 466,
+            "mean": 73.41,
+            "q25": 66.0,
+            "q75": 79.25
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 470,
+            "mean": 13.44,
+            "q25": 12.72,
+            "q75": 14.2
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 472,
+            "mean": 5.84,
+            "q25": 5.5,
+            "q75": 6.0
+          }
+        }
+      },
+      "75–84세": {
+        "group_n": 169,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 167,
+            "mean": 135.71,
+            "q25": 122.17,
+            "q75": 147.33
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 167,
+            "mean": 72.57,
+            "q25": 64.33,
+            "q75": 80.0
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 167,
+            "mean": 13.23,
+            "q25": 12.6,
+            "q75": 13.85
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 169,
+            "mean": 5.75,
+            "q25": 5.4,
+            "q75": 6.0
+          }
+        }
+      },
+      "85세 이상": {
+        "group_n": 0,
+        "metrics": {
+          "mean_sbp_mmhg": {
+            "label": "평균 수축기혈압",
+            "unit": "mmHg",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "mean_dbp_mmhg": {
+            "label": "평균 이완기혈압",
+            "unit": "mmHg",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "hemoglobin_g_dl": {
+            "label": "헤모글로빈",
+            "unit": "g/dL",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          },
+          "hba1c_percent": {
+            "label": "당화혈색소",
+            "unit": "%",
+            "n": 0,
+            "mean": NaN,
+            "q25": NaN,
+            "q75": NaN
+          }
+        }
+      }
+    }
+  }
+}

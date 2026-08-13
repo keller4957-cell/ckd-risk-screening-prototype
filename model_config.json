@@ -1,0 +1,64 @@
+{
+  "model_version": "NHANES_2021_2023_baseline_v1",
+  "model_purpose": "Single-visit kidney abnormality screening, not CKD diagnosis.",
+  "selected_threshold": 0.424277619126371,
+  "intercept_standardized": -0.3534508655568549,
+  "input_specifications": [
+    {"key": "age_years", "label": "연령", "model_feature": "Age_years_imputed", "min": 18, "max": 120, "allow_missing": false},
+    {"key": "female", "label": "성별", "model_feature": "Female_imputed", "allow_missing": false},
+    {"key": "mean_sbp_mmhg", "label": "평균 수축기혈압", "model_feature": "Mean_SBP_mmHg_imputed", "min": 50, "max": 260, "allow_missing": true},
+    {"key": "mean_dbp_mmhg", "label": "평균 이완기혈압", "model_feature": "Mean_DBP_mmHg_imputed", "min": 30, "max": 160, "allow_missing": true},
+    {"key": "hemoglobin_g_dl", "label": "헤모글로빈", "model_feature": "Hemoglobin_g_dL_imputed", "min": 3, "max": 25, "allow_missing": true},
+    {"key": "hba1c_percent", "label": "당화혈색소", "model_feature": "HbA1c_percent_imputed", "min": 3, "max": 20, "allow_missing": true}
+  ],
+  "train_medians": {
+    "Age_years_imputed": 56.0,
+    "Female_imputed": 1.0,
+    "Mean_SBP_mmHg_imputed": 120.0,
+    "Mean_DBP_mmHg_imputed": 74.0,
+    "Hemoglobin_g_dL_imputed": 14.0,
+    "HbA1c_percent_imputed": 5.5
+  },
+  "standardization_means": {
+    "Age_years_imputed": 52.73303303303303,
+    "Female_imputed": 0.5426426426426426,
+    "Mean_SBP_mmHg_imputed": 122.21871871871873,
+    "Mean_DBP_mmHg_imputed": 74.39014014014013,
+    "Hemoglobin_g_dL_imputed": 13.89855855855856,
+    "HbA1c_percent_imputed": 5.762612612612613,
+    "Age_years_missing_flag": 0.0,
+    "Female_missing_flag": 0.0,
+    "Mean_SBP_mmHg_missing_flag": 0.025525525525525526,
+    "Mean_DBP_mmHg_missing_flag": 0.025525525525525526,
+    "Hemoglobin_g_dL_missing_flag": 0.003303303303303303,
+    "HbA1c_percent_missing_flag": 0.0003003003003003003
+  },
+  "standardization_stds": {
+    "Age_years_imputed": 17.95528033760297,
+    "Female_imputed": 0.4981782863879676,
+    "Mean_SBP_mmHg_imputed": 17.571896544619236,
+    "Mean_DBP_mmHg_imputed": 10.65735804475987,
+    "Hemoglobin_g_dL_imputed": 1.470252892495783,
+    "HbA1c_percent_imputed": 1.0931393024750766,
+    "Age_years_missing_flag": 1.0,
+    "Female_missing_flag": 1.0,
+    "Mean_SBP_mmHg_missing_flag": 0.1577148473421931,
+    "Mean_DBP_mmHg_missing_flag": 0.1577148473421931,
+    "Hemoglobin_g_dL_missing_flag": 0.0573793646757237,
+    "HbA1c_percent_missing_flag": 0.017326572656758746
+  },
+  "coefficients_standardized": {
+    "Age_years_imputed": 0.6391476160822538,
+    "Female_imputed": -0.11781273220563357,
+    "Mean_SBP_mmHg_imputed": 0.31285191953966834,
+    "Mean_DBP_mmHg_imputed": -0.09685082681932276,
+    "Hemoglobin_g_dL_imputed": -0.2563766378402582,
+    "HbA1c_percent_imputed": 0.47453558026078974,
+    "Age_years_missing_flag": 0.0,
+    "Female_missing_flag": 0.0,
+    "Mean_SBP_mmHg_missing_flag": 0.04028874015271391,
+    "Mean_DBP_mmHg_missing_flag": 0.04028874015271391,
+    "Hemoglobin_g_dL_missing_flag": 0.05668708446714214,
+    "HbA1c_percent_missing_flag": 0.09336752052554291
+  }
+}
